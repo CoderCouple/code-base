@@ -1,0 +1,94 @@
+[
+  {
+    "name" : "master",
+    "env"  : "default",
+    "colo" : "default",
+    "db" :{
+      "main":{
+        "name":"mysql",
+        "protocol":"jdbc",
+        "host":"host1",
+        "port":"33060",
+        "database":"localDB",
+        "url":"jdbc:mysql://host1:33060/localDB"
+      },
+      "test":{
+        "name":"mysql",
+        "protocol":"jdbc",
+        "host":"host1",
+        "port":"33060",
+        "database":"testDB",
+        "url":"jdbc:mysql://host1:33060/testDB"
+      }
+    }
+  },
+  {
+    "name" : "dev",
+    "env"  : "dev",
+    "colo" : "gq1",
+    "db" :{
+      "main":{
+        "name":"mysql",
+        "protocol":"jdbc",
+        "host":"host1",
+        "port":"33060",
+        "database":"localDB",
+        "url":"jdbc:mysql://host1:33060/localDB"
+      },
+      "test":{
+        "name":"mysql",
+        "protocol":"jdbc",
+        "host":"host1",
+        "port":"33060",
+        "database":"testDB",
+        "url":"jdbc:mysql://host1:33060/testDB"
+      }
+    }
+  },
+  {
+    "name" : "stage",
+    "env"  : "stage",
+    "colo" : "gq1",
+    "db" :{
+      "main":{
+        "name":"mysql",
+        "protocol":"jdbc",
+        "host":"host1",
+        "port":"33060",
+        "database":"localDB",
+        "url":"jdbc:mysql://host1:33060/localDB"
+      },
+      "test":{
+        "name":"mysql",
+        "protocol":"jdbc",
+        "host":"host1",
+        "port":"33060",
+        "database":"testDB",
+        "url":"jdbc:mysql://host1:33060/testDB"
+      }
+    }
+  },
+  {
+    "name" : "prod",
+    "env"  : "prod",
+    "colo" : "gq1",
+    "db" :{
+      "main":{
+        "name":"mysql",
+        "protocol":"jdbc",
+        "host":"host1",
+        "port":"33060",
+        "database":"localDB",
+        "url":"jdbc:mysql://host1:33060/localDB"
+      },
+      "test":{
+        "name":"mysql",
+        "protocol":"jdbc",
+        "host":"host1",
+        "port":"33060",
+        "database":"testDB",
+        "url":"jdbc:mysql://host1:33060/testDB"
+      }
+    }
+  }
+]
