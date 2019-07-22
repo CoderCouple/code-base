@@ -7,6 +7,7 @@ com/javajaxrs/conf/api/BaseApiResource.class
 com/javajaxrs/conf/api/ReadConfigApiResource.class
 com/javajaxrs/conf/config/Constants.class
 com/javajaxrs/conf/config/ConfigReader.class
+com/javajaxrs/conf/guice/LiveConfigModule.class
 com/javajaxrs/conf/config/Config.class
 com/javajaxrs/conf/app/MainApplication.class
 com/javajaxrs/conf/app/BaseApplication.class

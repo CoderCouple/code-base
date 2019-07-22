@@ -5,11 +5,15 @@ import com.google.inject.Provides;
 import com.google.inject.Singleton;
 import com.javajaxrs.conf.config.Config;
 import com.javajaxrs.conf.config.ConfigImpl;
+import org.reflections.Reflections;
+
+import javax.ws.rs.Path;
 
 public class ConfigModule extends AbstractModule {
     @Override
     protected void configure() {
-
+        Reflections reflections = new Reflections("com.javajaxrs.conf.api");
+        reflections.getTypesAnnotatedWith(Path.class).forEach(this::bind);
     }
 
     @Provides
