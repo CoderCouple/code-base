@@ -55,6 +55,7 @@
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: com.google.inject.extensions:guice-servlet:4.0" />
           <element id="library" level="project" name="Maven: com.google.inject.extensions:guice-multibindings:4.0" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.10" />
           <element id="library" level="project" name="Maven: com.google.inject.extensions:guice-assistedinject:4.0" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-simple:1.7.26" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.0" />
